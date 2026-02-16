@@ -4,7 +4,11 @@ date: "2026-02-16"
 language: "en"
 ---
 
-Warnings in code are different from errors: they don't block the workflow, and it's possible to reach "working" code even while ignoring them. This characteristic makes them easy to overlook, but can lead to serious consequences over time.
+A warning is a type of notification that can come from various tools: linters, compilers, bundlers, or other code analysis tools.
+
+Unlike an error, it doesn't block the workflow -- the build continues even in the presence of warnings -- and it's possible to reach "working" code even while ignoring it.
+
+**This characteristic makes them easy to overlook, but can lead to serious consequences over time.**
 
 ## Why ignoring warnings is dangerous
 

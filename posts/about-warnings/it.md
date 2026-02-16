@@ -4,7 +4,11 @@ date: "2026-02-16"
 language: "it"
 ---
 
-I warning nel codice sono diversi dagli errori: non bloccano il flusso di lavoro, ed è possibile arrivare a del codice "funzionante" anche ignorandoli. Questa caratteristica li rende facili da trascurare, ma può portare a conseguenze serie nel tempo.
+Un warning è un tipo di segnalazione che può arrivare da diversi strumenti: linter, compilatori, bundler, o altri tool di analisi del codice.
+
+A differenza di un errore, non blocca il flusso di lavoro -- la build continua anche in presenza di warning -- ed è possibile arrivare a del codice "funzionante" anche ignorandolo.
+
+**Questa caratteristica li rende facili da trascurare, ma può portare a conseguenze serie nel tempo.**
 
 ## Perché ignorare i warning è pericoloso
 
